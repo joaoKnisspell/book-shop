@@ -32,7 +32,7 @@ export function ProductCard({ item }: ProductPageProps){
                     <span>{item.previousPrice}</span>
                 </ProductPrice>
 
-                <Button size="card"><Link href={`/product/${item.id}`}>View More</Link></Button>
+                <Button size="card"><Link href={`/product/${item.id}`} prefetch={false}>View More</Link></Button>
             </ProductDetail>
 
         </ProductContainer>

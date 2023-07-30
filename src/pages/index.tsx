@@ -82,14 +82,14 @@ export default function Home({ products }: HomeProps) {
       <ProductsSectionContainer>
         <SectionTitle>News</SectionTitle>
         <ProductsWrapper>
-          <Link href="/news">
+          <Link href="/news" prefetch={false}>
             <NewsCard 
               title="February's Best Children's Books" 
               description="Some of the finest children's authors currently writing have books publishing this month, from Natasha Farrant to Elle McNicoll and from Tahereh Mafi to Harriet Muncaster. Across all areas and age ranges there are plenty of fantastic titles..."
               news_img="/img/news1.png"
               />
           </Link>
-          <Link href="/news">
+          <Link href="/news" prefetch={false}>
             <NewsCard 
               title="The Books You Need to Read in 2023"
               description="his is the blog we know you've all been waiting for. We present the top 10 titles for 2023 in fiction, non-fiction and children's books; a glorious mix of masterful storytelling, compelling subject matter and page-turning thrills..."
@@ -105,7 +105,7 @@ export default function Home({ products }: HomeProps) {
 export const getStaticProps: GetStaticProps = async () => {
 
   const response = await stripe.products.list({
-    expand: ['data.default_price']
+    expand: ['data.default_price'], 
   })
   
   const products = response.data.map((element) => {
