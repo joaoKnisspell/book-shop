@@ -1,4 +1,4 @@
-![Logo do projeto](https://i.imgur.com/zAQ2ynk.png)
+![Logo do projeto](https://i.imgur.com/Shxvcji.png)
 # Book Shop
 
 A <strong>Book Shop</strong> é uma aplicação que desenvolvi com o objetivo de simular um e-commerce de livros. Para torná-la mais semelhante ao mundo real, decidi integrar a aplicação com a API de pagamentos do Stripe.
@@ -11,7 +11,7 @@ A aplicação <strong>Book Shop</strong> foi cuidadosamente desenvolvida para co
 
 ## ⚙️ Tecnologias utilizadas
 ### Front-End:
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![StichesCSS](https://stitches.dev/blog/introducing-stitches/hero.png)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![StichesCSS](https://i.imgur.com/9IIAIXo.png)
 
 ### Back-End:
 STRIPE API - https://stitches.dev/blog/introducing-stitches/hero.png
