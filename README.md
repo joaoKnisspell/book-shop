@@ -11,10 +11,11 @@ A aplicação <strong>Book Shop</strong> foi cuidadosamente desenvolvida para co
 
 ## ⚙️ Tecnologias utilizadas
 ### Front-End:
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![StichesCSS](https://i.imgur.com/9IIAIXo.png?1)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-### Back-End:
-STRIPE API - https://stitches.dev/blog/introducing-stitches/hero.png
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+
+![StichesCSS](https://i.imgur.com/9IIAIXo.png?1)
 
 ## 🌊 Deploy
 Vercel: https://book-store-git-main-joaoknisspell.vercel.app/
